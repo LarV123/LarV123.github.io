@@ -1,0 +1,150 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #1c1c1c;
+    color: white;
+    text-align: center;
+}
+
+#title{
+    max-width: 100em;
+    width: 80%;
+    height: 20em;
+    margin: 0 auto 25em auto;
+    padding-top: 5em;
+}
+
+#title > img{
+    max-width: 500px;
+    max-height: 500px;
+    width: 100%;
+}
+
+.project{
+    width: 100%;
+    max-width: 100em;
+    min-height: 15em;
+    margin: 5em auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 10px;
+    border: 3px dashed grey;
+}
+
+.description{
+    margin: auto;
+    padding: 0px 10px;
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+}
+
+.description > p{
+    text-align: left;
+}
+
+.images{
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+    max-width: 800px;
+    width: 80%;
+    height: 200px;
+    text-align: left;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.img-panel{
+    max-height:100%;
+    max-width:100%;
+    cursor: pointer;
+}
+
+.show-button-frame{
+    margin: auto;
+    padding: 0px 10px;
+    max-width: 800px;
+    width: 90%;
+}
+
+.show-button{
+    width: 10em;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.show-button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+.what-i-do{
+    display: none;
+    margin: auto;
+    padding: 0px 10px;
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+}
+
+.what-i-do > *{
+    text-align: left;
+}
+
+.links {
+    margin: auto;
+    padding: 0px 10px;
+    max-width: 800px;
+    width: 90%;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 4em;
+}
+
+.links > a:hover > i {
+    color: grey;
+}
+
+.credits{
+    margin: auto;
+    padding: 0px 10px;
+    max-width: 800px;
+    width: 90%;
+    text-align: left;
+}
+
+.credits > ul > li{
+    margin: 0 auto;
+    text-align: left;
+    max-width: 20em;
+    width: 100%;
+}
+
+.role{
+    display: inline-block;
+    border-radius: 1em;
+    padding: 5px;
+    margin: 5px;
+}
+
+.programmer{
+    background-color: blueviolet;
+}
+
+.artist{
+    background-color: darkgreen;
+}
+
+.game-designer{
+    background-color: darkblue;
+}
+
+@media (max-width: 100em) {
+    .project{
+        margin: 5em auto;
+        width: 80%;
+    }
+}
