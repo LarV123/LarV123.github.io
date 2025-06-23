@@ -66,6 +66,10 @@
             "LD_MelodicaFluteDrumKitScene_Line_0": 160,
             "LD_MelodicaFluteDrumKitScene_Line_1": 90,
             "LD_MelodicaFluteDrumKitScene_Line_2": 30,
+            "LD_Mirror_Hints_Ask_0": 20,
+            "LD_Mirror_Hints_Answer_0": 100,
+            "LD_Mirror_Hints_Ask_1": 30,
+            "LD_Mirror_Hints_Answer_1": 150,
             "Object_Sofa": 10,
             "Object_TV": 10,
             "Object_Left_Speaker": 20,
@@ -93,7 +97,11 @@
             "LD_TentCarpetScene_Line_0": 120,
             "LD_TentCarpetScene_Line_1": 80,
             "LD_TentCarpetScene_Line_2": 80,
-            "LD_TentCarpetScene_Line_3": 100
+            "LD_TentCarpetScene_Line_3": 100,
+            "LD_TransparentHints_Ask_0": 30,
+            "LD_TransparentHints_Answer_0": 120,
+            "LD_TransparentHints_Ask_1": 40,
+            "LD_TransparentHints_Answer_1": 110
         }
     },
     "en": {
@@ -162,6 +170,10 @@
         "LD_MelodicaFluteDrumKitScene_Line_0": "This is it – the final test! You'll need to apply everything you've learned to help Donnie and Sarah find the melodica, flute, and drum kit. Good luck!",
         "LD_MelodicaFluteDrumKitScene_Line_1": "Spectacular! Your understanding of how light interacts with objects is complete.",
         "LD_MelodicaFluteDrumKitScene_Line_2": "Thank for playing our game.",
+        "LD_Mirror_Hints_Ask_0": "What is a mirror?",
+        "LD_Mirror_Hints_Answer_0": "Mirror is a reflective surface that bounces light the same angle as the light hits the mirror.",
+        "LD_Mirror_Hints_Ask_1": "What is a translucent object?",
+        "LD_Mirror_Hints_Answer_1": "Translucent object is an object that allows some light to passthrough while scattering the light ray. Some examples are curtains and plastics.",
         "Object_Sofa": "Sofa",
         "Object_TV": "TV",
         "Object_Left_Speaker": "Left Speaker",
@@ -189,6 +201,10 @@
         "LD_TentCarpetScene_Line_0": "This time one of the window is covered with window blind. The window blind, blocks the light coming in from the window.",
         "LD_TentCarpetScene_Line_1": "You can draw open or close the window blind by switching the lever. Try it out!",
         "LD_TentCarpetScene_Line_2": "Well done. Now help Donnie and Sarah find two batteries and a candle pack.",
-        "LD_TentCarpetScene_Line_3": "Nice work! now donnie have two extra spare batteries if the flashlight's battery ever run out."
+        "LD_TentCarpetScene_Line_3": "Nice work! now donnie have two extra spare batteries if the flashlight's battery ever run out.",
+        "LD_TransparentHints_Ask_0": "What is transparent object?",
+        "LD_TransparentHints_Answer_0": "Transparent objects are objects that allow lights to pass through. Some examples are glass, clear plastic, etc.",
+        "LD_TransparentHints_Ask_1": "How to draw open or close the blind?",
+        "LD_TransparentHints_Answer_1": "You can draw the window blind open or closed by shining light on the lever and press the magnify button icon."
     }
 }
