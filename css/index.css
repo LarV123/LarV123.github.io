@@ -202,7 +202,34 @@ body {
 .hero-text {
     font-size: 1rem;
     color: var(--text-secondary);
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.hero-contacts {
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+}
+
+.hero-contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    transition: var(--transition);
+}
+
+.hero-contact-link:hover {
+    color: var(--text-primary);
+    border-color: var(--accent);
+    background: rgba(139, 92, 246, 0.08);
 }
 
 .cta-button {
@@ -380,10 +407,13 @@ body {
     overflow: hidden;
 }
 
-.timeline-logo svg {
+.timeline-logo svg,
+.timeline-logo img {
     width: 100%;
     height: 100%;
     display: block;
+    border-radius: 8px;
+    object-fit: cover;
 }
 
 .timeline-info h3 {
@@ -536,6 +566,13 @@ body {
     font-weight: 700;
     letter-spacing: -0.02em;
     text-align: left;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-bottom: 1rem;
 }
 
 .description {
@@ -737,6 +774,39 @@ body {
     color: var(--text-secondary);
     font-size: 1.1rem;
     margin-bottom: 2rem;
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.8rem 1.5rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-sm);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.contact-card i {
+    font-size: 1.2rem;
+}
+
+.contact-card:hover {
+    color: var(--text-primary);
+    border-color: var(--accent);
+    background: var(--bg-card-hover);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(139, 92, 246, 0.15);
 }
 
 footer {
